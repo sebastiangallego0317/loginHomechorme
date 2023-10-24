@@ -1,0 +1,12 @@
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+
+*{
+    font-family: Google sans,sans-serif;
+
+}
+
+input[type=password]:focus{
+    outline: #4285f4 solid 2px;
+}
